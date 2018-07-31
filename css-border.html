@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Border</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+
+        }
+        div{
+            width: 500px;
+            margin: 10px;
+            padding: 10px;
+            background-color: darkorange;
+            text-align: center;
+
+        }
+        #rounded-all{
+            border: 10px double red;
+            border-radius: 25px;
+
+        }
+        #rounded-two{
+            border: 10px double red;
+            border-top-left-radius: 35px;
+            border-bottom-right-radius: 35px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- border top -->
+<div style="border-top: 10px solid red">
+    <h1>Border Top</h1>
+</div>
+
+<!-- border bottom -->
+<div style="border-bottom: 10px solid red">
+    <h1>Border bottom</h1>
+</div>
+
+<!-- border left -->
+<div style="border-left: 10px solid red">
+    <h1>Border left</h1>
+</div>
+
+<!-- border right -->
+<div style="border-right: 10px solid red">
+    <h1>Border right</h1>
+</div>
+
+<!-- border all sides -->
+<div style="border: 10px solid red">
+    <h1>Border all sides</h1>
+</div>
+
+<!-- border rounded all sides -->
+<div id="rounded-all">
+    <h1>Rounded all sites</h1>
+</div>
+
+<!-- rounded two sides -->
+<div id="rounded-two">
+    <h1>Rounded two sides</h1>
+</div>
+</body>
+</html>

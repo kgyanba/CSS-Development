@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Background color</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+            font-size: 20px;
+        }
+        #bg-image{
+            background-image: url("image/Rainbow-Waterfall.jpg");
+            padding: 10px;
+            width: 500px;
+        }
+        #bg-attachment{
+            width: 100%;
+            height: 300px;
+            background: white url("image/Rainbow-Waterfall.jpg") no-repeat fixed bottom;
+        }
+        #bg-position{
+            width: 400px;
+            height: 200px;
+            background: lightgreen url("image/nature.jpg") no-repeat scroll top right;
+        }
+        #bg-repeat{
+            width: 600px;
+            height: 300px;
+            background: orangered url("image/nature.jpg") no-repeat scroll bottom ;
+        }
+        h2{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<!-- background image -->
+<h2>background image</h2>
+<div id="bg-image">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid cum ex explicabo molestiae quos, rerum suscipit voluptatum? Explicabo quidem sit voluptatibus? Exercitationem laboriosam laborum non omnis praesentium recusandae sed voluptas!</p>
+</div>
+
+<!-- background attachment -->
+<h2>background attachment</h2>
+<div id="bg-attachment"></div>
+
+<!-- background position -->
+<h2>background position</h2>
+<div id="bg-position"></div>
+
+<!-- background repeat-->
+<h2>background repeat</h2>
+<div id="bg-repeat"></div>
+
+</body>
+</html>
