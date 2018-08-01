@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tables</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        table,th,td{
+            padding: 10px;
+            text-align: center;
+            border: none;
+            font-size: 20px;
+        }
+        table{
+            width: 100%;
+        }
+        th{
+            background-color:red;
+            color: white;
+        }
+        tr:nth-child(even){
+            background-color: firebrick;
+            color: white;
+        }
+        tr:nth-child(odd)
+        {
+            background-color: darkred;
+            color: white;
+        }
+        th,td{
+            border-radius: 20px;
+        }
+        td:hover{
+            background-color: orange;
+            color: black;
+            cursor: pointer;
+
+        }
+        th:hover{
+            background-color: forestgreen;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+    <th>StudentName</th>
+    <th>Address</th>
+    <th>MobileNo</th>
+    </tr>
+    <tr>
+        <td>Sachin</td>
+        <td>pune</td>
+        <td>774668286</td>
+    </tr>
+    <tr>
+        <td>sundar</td>
+        <td>latur</td>
+        <td>868383693</td>
+    </tr>
+    <tr>
+        <td>sanju</td>
+        <td>nanded</td>
+        <td>7838748974</td>
+    </tr>
+    <tr>
+        <td>sudarshan</td>
+        <td>nashik</td>
+        <td>763878387</td>
+    </tr>
+</table>
+
+</body>
+</html>
