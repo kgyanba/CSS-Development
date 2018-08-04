@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>display</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        div{
+            padding: 10px;
+            margin: 10px;
+        }
+        ul{
+            background-color: lightgreen;
+        }
+        li{
+            display: inline;
+        }
+        span{
+            background-color: orange;
+            display: block;
+        }
+        #dis-block a{
+            display: block;
+        }
+        input{
+            display: block;
+            margin: 10px;
+
+        }
+        h1{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<!-- display inline -->
+<div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Careers</a></li>
+    </ul>
+</div>
+
+<!-- display block -->
+<div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <span >1. Alias aliquid debitis dolor exercitationem minima molestiae nisi perspiciatis sequi tempore voluptatibus! Accusamus assumenda beatae consequatur deleniti dolor error eum expedita,</span>
+        <span >2. facilis id itaque magni, minus modi nam,</span>
+        <span >3.neque nihil nobis nulla odio officiis quas qui quia quos sed soluta unde veniam.</span></p>
+</div>
+
+<!-- display block -->
+<div id="dis-block">
+    <a href="#">Home</a>
+    <a href="#">About us</a>
+    <a href="#">Contact us</a>
+    <a href="#">Careers</a>
+</div>
+
+<!-- display block -->
+<form>
+    <input type="text" placeholder="user name">
+    <input type="password" placeholder="password">
+    <input type="submit">
+</form>
+
+<!-- display hidden -->
+<div>
+    <h1>i am hidden</h1>
+</div>
+
+</body>
+</html>
