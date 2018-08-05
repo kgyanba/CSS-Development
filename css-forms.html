@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>forms</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+            background-size: cover;
+            background-image: url("image/background.jpg");
+        }
+        .form_div{
+            width: 300px;
+            text-align: center;
+            margin: 10px auto auto auto;
+            border-radius: 15px;
+            background-color: lightcyan;
+            box-shadow: 0 0 15px red;
+        }
+        .form_div img{
+            width: 120px;
+            margin-top: -50px;
+        }
+        .form_div h2{
+            margin-top: 5px;
+            font-size: 20px;
+            color: red;
+        }
+        input[type='text'],
+        input[type='password']{
+            height: 40px;
+            text-align: center;
+            border: none;
+            background: transparent;
+            outline: none;
+            margin: 5px;
+            border-bottom: 3px solid teal;
+
+        }
+        input[type='text']:focus,
+        input[type='password']:focus{
+            color: black;
+            border-bottom: 3px solid #00AEEF;
+        }
+        ::placeholder{
+            color: lightgray;
+        }
+        input[type='submit']{
+            background-color: lightcoral;
+            color: white;
+            border: none;
+            margin: 20px 0 30px 0;
+            font-size: 20px;
+            padding: 10px 45px;
+            border-radius: 50px;
+            outline: none;
+        }
+        input[type='submit']:hover{
+            cursor: pointer;
+            box-shadow: 0 0 15px teal;
+            background-color: #0D79A2;
+        }
+
+    </style>
+</head>
+<body>
+<div class="form_div">
+    <img src="image/user.png">
+    <h2>Login here</h2>
+    <form>
+        <input type="text" placeholder="user name">
+        <input type="password" placeholder="password">
+        <input type="submit" value="login">
+    </form>
+    
+</div>
+</body>
+</html>
